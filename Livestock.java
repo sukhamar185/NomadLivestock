@@ -9,6 +9,10 @@ abstract class Livestock {
 
     abstract String makeSound();
 
+    String makeSound(int volume) {
+        return "Duunii hemjee: " + volume;
+    }
+
     void graze() {
         System.out.println(name + "belcheert belchine.");
     }

@@ -21,12 +21,16 @@ public class NomadLivestockDemo {
         for (Livestock animal : livestockArray) {
             if (animal instanceof Horse) {
                 animal.graze("urgamal");
+                System.out.println(animal.makeSound(9));
             } else if (animal instanceof Sheep) {
                 animal.graze("ows");
+                System.out.println(animal.makeSound(5));
             } else if (animal instanceof Camel) {
                 animal.graze("goviin but");
+                System.out.println(animal.makeSound(8));
             } else if (animal instanceof Goat) {
                 animal.graze("tsetseg");
+                System.out.println(animal.makeSound(4));
             }
         }
     }

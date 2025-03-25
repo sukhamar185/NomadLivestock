@@ -7,6 +7,10 @@ class Camel extends Livestock implements WorkRole {
     String makeSound() {
         return "Builna!";
     }
+    @Override
+    String makeSound(int volume) {
+        return "duunii hemjee: " + volume;
+    }
 
     @Override
     public String performTask() {
