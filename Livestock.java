@@ -14,6 +14,6 @@ abstract class Livestock {
     }
 
     void graze(String food) {
-        System.out.println(name + " " + food + "-iig belcine.");
+        System.out.println(name + " " + food + "-iig idne.");
     }
 }
