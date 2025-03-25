@@ -1,4 +1,4 @@
-class Sheep extends Livestock {
+class Sheep extends Livestock implements WorkRole {
     public Sheep(String name, int age) {
         super(name, age);
     }
@@ -7,4 +7,10 @@ class Sheep extends Livestock {
     String makeSound() {
         return "Maa!";
     }
+
+    @Override
+    public String performTask() {
+        return "Honi talbaid belchine.";
+    }
+    
 }
